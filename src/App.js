@@ -1,24 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer/Footer';
+
+import Bridal from './bridal/bridal';
+import Gallery from './gallery/Gallery';
+import Header from './header/Header';
+import Course from './course/Course';
+import Contact from './contact/Contact';
+
+import Service from './service/Service';
+import Inner from './Inner/Inner';
+import Home from './home/Home';
+import {BrowserRouter,Route,Routes} from "react-router-dom";
+
+
+
+
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header/>
+    <Routes>
+    
+ 
+      
+      <Route path='/inner' element={<Inner/>}/>
+      <Route path='/' element={<Home/>}/>       
+      <Route path='/service' element={<Service/>}/>       
+      
+      <Route path='/course' element={<Contact/>}/>
+      <Route path='/contact' element={<Course/>}/>
+      <Route path='/gallery' element={<Gallery/>}/>
+      <Route path='/bridal' element={<Bridal/>}/>   
+    
+    
+    </Routes>
+    <Footer/>
     </div>
+    </BrowserRouter>
   );
 }
 

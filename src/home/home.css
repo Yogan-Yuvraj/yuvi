@@ -1,0 +1,21 @@
+.govaalu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+}
+
+.decor{
+    background-color: #00fa9a;
+    padding: 8%;
+    text-align: left;
+}
+
+
+.murugesan{
+    display: flex;
+}
+
+.bat{
+   width: 100px;
+}

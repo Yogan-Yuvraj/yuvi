@@ -1,0 +1,47 @@
+.yuvaraja{
+    position: relative;
+    height: 500px;
+    background-color: black;
+    width: 100%;
+    
+}
+.info{
+    /* background-color: darkslategray; */
+    color:beige;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-10%, -30%);
+    padding: 100px;
+}
+
+.info-cont {
+    display: none;
+}
+
+.label{
+    background-color:gainsboro;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:760px) {
+    .yuvaraja {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .info-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
