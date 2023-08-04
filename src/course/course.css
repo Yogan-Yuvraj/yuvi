@@ -20,8 +20,9 @@
 }
 
 .label{
-    background-color:gainsboro;
+    background-color:rgb(68, 60, 104);
     border-radius: 30px;
+    color:white;
 }
 
 @media screen and (max-width:760px) {

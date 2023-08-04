@@ -20,6 +20,11 @@ body {
   padding: 0 4px;
 }
 
+.mention{
+   margin-right: 200px;
+   text-align: right;
+}
+
 /* Create four equal columns that sits next to each other */
 .column {
   -ms-flex: 25%; /* IE10 */
@@ -70,3 +75,8 @@ body {
     justify-content: center;
   }
 }
+
+
+
+
+ 

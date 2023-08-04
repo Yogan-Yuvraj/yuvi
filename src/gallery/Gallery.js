@@ -8,8 +8,10 @@ import lee from "../Dhiya/girl5.jpg"
 import watson from "../Dhiya/girl4.jpg"
 import warner from "../Dhiya/girl3.jpg"
 import bracken from "../Dhiya/girl2.jpg"
+import ambani from "../Dhiya/setmake9.png"
 import './gallery.css';
 import Footer from '../Footer/Footer'
+import Wobble from 'react-reveal/Wobble';
 
 
 const Gallery = () => {
@@ -19,9 +21,10 @@ const Gallery = () => {
      
 
      <div className="yuvraj">
-      <img src={ponting} />
-      <h2>Gallery</h2>
+     <img className='jing' src={ambani} /> 
+      {/* <h2 className="mention" style={{background:"none",color:"white"}}>Gallery</h2> */}
       </div>
+      <br></br>
 
       <div className="welcome">
         <h1>BRIDAL MAKE UP</h1>

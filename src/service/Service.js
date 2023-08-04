@@ -3,7 +3,7 @@ import Header from '../header/Header'
 import ponting from "../Dhiya/girl12.jpg"
 import modi from "../Dhiya/girl14.jpg"
 import stalin from "../Dhiya/girl14.jpg"
-
+import paaduda from "../Dhiya/setmake10.png"
 import annamalai from "../Dhiya/girl14.jpg"
 import "./service.css";
 import Footer from '../Footer/Footer'
@@ -13,8 +13,8 @@ const Service = () => {
     <div id="karuva">
       
        <div className="yuvraj">
-      <img src={ponting} />
-      <h2>Services</h2>
+      <img src={paaduda} />
+      {/* <h2>Services</h2> */}
       </div>
       
       <br></br>
@@ -35,7 +35,7 @@ const Service = () => {
 
           <div clsss="card">
           <img src={stalin} />
-          <p className='card-text'>Threading</p>
+          <p className='card-text'>Waxing</p>
           </div>
 
           <div clsss="card">
@@ -51,22 +51,22 @@ const Service = () => {
 
         <div clsss="card">
           <img src={modi} />
-          <p>Facial</p>
+          <p>Pedicure & Medicure</p>
           </div>
 
           <div clsss="card">
           <img src={stalin} />
-          <p>Threading</p>
+          <p>Head Massage</p>
           </div>
 
           <div clsss="card">
           <img src={stalin} />
-          <p>Threading</p>
+          <p>Haircut</p>
           </div>
 
           <div clsss="card">
           <img src={annamalai} />
-          <p>Mehandhi</p>
+          <p>Hair Spa</p>
           </div>
 
           </div>
@@ -77,22 +77,22 @@ const Service = () => {
 
         <div clsss="card">
           <img src={modi} />
-          <p>Facial</p>
+          <p>Hair smoothening</p>
           </div>
 
           <div clsss="card">
           <img src={stalin} />
-          <p>Threading</p>
+          <p>Hair Straightening</p>
           </div>
 
           <div clsss="card">
           <img src={stalin} />
-          <p>Threading</p>
+          <p>Aroma Facial</p>
           </div>
 
           <div clsss="card">
           <img src={annamalai} />
-          <p>Mehandhi</p>
+          <p>Treatment Facial</p>
           </div>
 
           </div>

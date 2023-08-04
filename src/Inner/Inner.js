@@ -3,10 +3,15 @@ import Header from '../header/Header'
 import ponting from "../Dhiya/girl12.jpg"
 import tamanna from "../Dhiya/girl3.jpg"
 import kajal from "../Dhiya/girl4.jpg"
+import bekku from "../Dhiya/setmake2.png"
 import aishwarya from "../Dhiya/girl5.jpg"
+import goyyala from "../Dhiya/setmake4.png"
 import sherin from "../Dhiya/girl7.jpg"
+import ambani from "../Dhiya/setmake9.png"
 import './Inner.css'
 import Footer from '../Footer/Footer'
+import Slider from '../Slider'
+import {Rotate} from 'react-reveal'
 
 
 
@@ -16,8 +21,15 @@ const Inner = () => {
         
 
         <div className="yuvraj">
-      <img src={ponting} />
-      <h2>About</h2>
+
+        
+
+
+
+
+
+        <Rotate top right><img src={bekku} style={{height:"420px"}} /></Rotate>
+      {/* <h2>About</h2> */}
       </div>
 
        <br></br>

@@ -2,7 +2,9 @@ import React from 'react'
 import "./contact.css";
 import Header from '../header/Header'
 import ponting from "../Dhiya/girl12.jpg"
+import kohli from "../Dhiya/setmake7.png"
 import Footer from '../Footer/Footer';
+import RubberBand from 'react-reveal/RubberBand';
 
 
 const Contact = () => {
@@ -11,8 +13,8 @@ const Contact = () => {
        
 
        <div className="yuvraj">
-      <img src={ponting} />
-      <h2>Course</h2>
+       <RubberBand><img src={kohli} /></RubberBand>
+      {/* <h2>Course</h2> */}
       </div>
     <br></br>
     <p style={{fontSize :"40px", color:"Red"}}>COURSE PLAN</p>

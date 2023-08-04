@@ -1,0 +1,45 @@
+.iconeh{
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    right : 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faceah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50px 0 0 50px;
+    padding:5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.instaeh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF00FF;
+    border-radius: 50px 0 0 50px;
+    padding:5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.whatseh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32de84;
+    border-radius: 50px 0 0 50px;
+    padding:5px;
+    font-size: 20px;
+    color: white;
+
+}

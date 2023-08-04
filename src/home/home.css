@@ -6,11 +6,20 @@
 }
 
 .decor{
-    background-color: #00fa9a;
+    background-color: rgb(57, 48, 83);
+    color:white;
     padding: 8%;
     text-align: left;
+    border-radius: 25px;
 }
 
+.decor h3{
+    font-family: Comic Sans MS;
+}
+
+.decor p{
+   font-family: Bradley Hand;  
+}
 
 .murugesan{
     display: flex;
@@ -19,3 +28,4 @@
 .bat{
    width: 100px;
 }
+

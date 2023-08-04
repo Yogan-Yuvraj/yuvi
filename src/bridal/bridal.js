@@ -1,23 +1,25 @@
 import React from "react";
 import "./bridal.css";
 import yogan from "../Dhiya/girl10.jpg";
-import govalu from "../Dhiya/girl1.jpg";
+import yoganu from "../Dhiya/girl16.jpg";
+import govalu from "../Dhiya/chain4.png";
 import nesamani from "../Dhiya/girl2.jpg";
 import Footer from "../Footer/Footer";
 import Header from "../header/Header";
+import LightSpeed from 'react-reveal/LightSpeed';
 
 
 const Bridal = () => {
   return (
     <div>
       
-
+      
     <div>
 
      <div className="yuvraj">
-      <img src={yogan} />
-      <h2>Bridal Gallery</h2>
-      </div>
+     <LightSpeed><img src={yogan} /></LightSpeed>
+      {/* <h2>Bridal Gallery</h2> */}
+      </div><br></br>
 
      </div>
 
@@ -34,14 +36,22 @@ const Bridal = () => {
           <button class="btn btn-primary">Air Brush Makeup</button>
         </div>
       </div>
+      <br></br>
 
+      
       <div className="foto">
-
+      
       <img src={govalu} className="govalu" />
       <img src={nesamani} className="govalu" />
-      <img src={yogan} className="govalu" />
+      <img src={yoganu} className="govalu" />
       
-      </div>  
+      </div> 
+      
+
+      
+     
+      
+       
 
 
       <div className="sun">

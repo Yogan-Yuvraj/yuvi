@@ -2,8 +2,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgb(57, 48, 83);
     gap:35px;
+    padding: 45px;
+    border-radius: 50px;
+    color: white;
 }
+
+.container{
+    background-color: rgb(68, 60, 104);
+    padding: 25px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.sunny{
+    background-color:rgb(57, 48, 83);
+}  
 
 
 .meaning{

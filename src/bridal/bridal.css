@@ -26,8 +26,10 @@ h2 {
 
 
 .welcome{
-    
+    background-color: rgb(68, 60, 104);
     padding: 100px;
+    border-radius: 30px;
+    color: white;
 }
 
 button{
@@ -39,6 +41,8 @@ button{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
+    /* background-color: rgb(68, 60, 104); */
     gap: 10px;
 
 }
@@ -52,12 +56,14 @@ button{
 .sun{
     padding: 100px;
     margin: 30px;
+    border-radius: 30px;
+    background-color: rgb(57, 48, 83);
 }
 
 .sun p{
      font-size: 45px;
      font-style: oblique;
-     color: brown;
+     color: white;
 
 }
 

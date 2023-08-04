@@ -6,29 +6,33 @@ import mehana from "../Dhiya/girl9.jpg"
 import bavana from "../Dhiya/girl7.jpg"
 import tamanna from "../Dhiya/girl3.jpg"
 import kajal from "../Dhiya/girl4.jpg"
+import goyyala from "../Dhiya/setmake4.png"
 import aishwarya from "../Dhiya/girl5.jpg"
 import sherin from "../Dhiya/girl7.jpg"
 import './home.css'
+import {Zoom} from 'react-reveal'
 
 
 
 const Home = () => {
   return (
     <section id="home">
-
+     
+     
      <div className="yuvraj">
-     <img src={ponting} />
-     <h2>About</h2>
+     <Zoom><img src={goyyala} /></Zoom>
+     {/* <h2>Home</h2> */}
      </div>
      <br></br>
   
+     
     <div className='govaalu' class="container">
     <div class="row">
     <div className='nesamani' class="col-sm-6">
-      <h1>Welcome To</h1>
-      <h1>Stylish Park</h1><p>BRIDAL STUDIO</p>
-      <p>The salon promises to offer a contemporary atmosphere for all its clients. From bridal makeup, hair styling and cutting to blow dry and hair coloring, you can choose from these services offered by Stylish Park Bridal Studio.</p>
-      <p>"You are entering into a stress free zone.
+      <h1 style={{fontFamily:"Comic Sans MS"}}>Welcome To</h1>
+      <h1 style={{fontFamily:"Comic Sans MS"}}>Stylish Park</h1><p style={{fontFamily:"Comic Sans MS"}}>BRIDAL STUDIO</p>
+      <p style={{fontFamily:"Bradley Hand"}}>The salon promises to offer a contemporary atmosphere for all its clients. From bridal makeup, hair styling and cutting to blow dry and hair coloring, you can choose from these services offered by Stylish Park Bridal Studio.</p>
+      <p style={{fontFamily:"Bradley Hand"}}>"You are entering into a stress free zone.
 Welcome to our beauty salon we make you beautiful."</p>
     </div>
     
@@ -38,7 +42,9 @@ Welcome to our beauty salon we make you beautiful."</p>
     {/* </div> */}
   
     </div>
+    
     </div>
+    
 
     <br></br><br></br>
 
@@ -51,11 +57,11 @@ Welcome to our beauty salon we make you beautiful."</p>
     </div> 
 
     <div className="sunny" class="col-sm-4">
-         <h3>Beauty awankens the soul to act</h3>
-         <p>We are going to enter our fifth anniversary to our salon. It's ours salon wow .. Proud to say 250+ customers in 6 months got bridal makeover. It's too hard but happy to see our salon. On this occasion I welcome you all to come and get offer prices for facial, pedicure and menicure, Hair spa , threadning.</p>
+         <h3 style={{fontFamily:"Comic Sans MS"}}>Beauty awankens the soul to act</h3>
+         <p style={{fontFamily:"Bradley Hand"}}>We are going to enter our fifth anniversary to our salon. It's ours salon wow .. Proud to say 250+ customers in 6 months got bridal makeover. It's too hard but happy to see our salon. On this occasion I welcome you all to come and get offer prices for facial, pedicure and menicure, Hair spa , threadning.</p>
          </div>
       </div>
-
+<br></br>
       <div>
 
         <div className='decor'>

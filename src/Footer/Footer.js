@@ -1,5 +1,9 @@
 import React from 'react'
 import './Footer.css';
+import { Link } from 'react-router-dom';
+import {HiLocationMarker} from "react-icons/hi"
+import {BsFillTelephoneFill} from "react-icons/bs"
+import {AiOutlineMail} from "react-icons/ai"
 
 const styl = {listStyleType: "none"}
 
@@ -23,13 +27,18 @@ const Footer = () => {
        
         <p style={{fontSize:25}}>Quick Links</p>
        <ul>
-         <li style={styl}><a href="#">HOME</a></li>
-         <li><a href="#">ABOUT</a></li>
-         <li><a href="#">SERVICES</a></li>
-         <li><a href="#">BRIDAL MAKE UP</a></li>
-         <li><a href="#">GALLERY</a></li>
-         <li><a href="#">CONTACT</a></li>
-         <li><a href="#">COURSE</a></li>
+         <li style={styl}><Link  className='aaduven' to="/">HOME</Link></li>
+         <li><Link className='aaduven' to="/inner">ABOUT</Link></li>
+
+         <li><Link className='aaduven' to="/service">SERVICES</Link></li>
+
+         <li><Link className='aaduven' to="/bridal">BRIDAL MAKE UP</Link></li>
+
+         <li><Link className='aaduven' to="/gallery">GALLERY</Link></li>
+
+         <li><Link className='aaduven' to="/contact">CONTACT</Link></li>
+
+         <li><Link className='aaduven' href="#">COURSE</Link></li>
          </ul>
         
        </div>   
@@ -39,11 +48,16 @@ const Footer = () => {
        
        <p style={{fontSize:25}}>Contact Info</p>
        <ul>
-        <li><p>16/F,1st Floor, Hope Vila, Aarthi Theatre Rd, near Y.M. Patty, Karunanidhi Nagar, Dindigul</p></li>
-        <li>+91 7904733762</li>
+        <li><p><HiLocationMarker/>16/F,1st Floor, Hope Vila, Aarthi Theatre Rd, near Y.M. Patty, Karunanidhi Nagar, Dindigul</p></li>
+        <li><BsFillTelephoneFill/>+91 7904733762</li>
         <li>+91 7604827071</li>
-        <li>+91 9677449742</li>
+        <li>+91 9677449742</li><br></br>
+
+        <li><AiOutlineMail/>stylishpark@gmail.com</li>
+        <li>info@stylishpark.com</li>
        </ul>
+
+        
         
         </div>
 
@@ -51,6 +65,7 @@ const Footer = () => {
             
         <p style={{fontSize:25}}>Business Hour</p>
         <p>Mon-Sun      9AM-9PM</p>
+        <hr class="style6"></hr>
         </div>
 
        </div>
@@ -59,7 +74,7 @@ const Footer = () => {
 
  </div>
 
- <div class="divider py-1 bg-success"></div>
+    <hr class="style6"></hr>
  
    <div class="row">
     <div class="col-sm-6 p-3">
